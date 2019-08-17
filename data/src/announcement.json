@@ -1,0 +1,17 @@
+{
+	"support" : {
+	    		"title":"Don't Forget to Show your Support",
+	    		"color":"#6ABAFF",
+	    		"desc":"Upvote CleverBot on Discord Bot List -> https://discordbots.org/bot/458664297732636672\nPledge your support CleverBot on Patreon! -> https://www.patreon.com/thehacker_\n\nDoing this helps keep CleverBot afloat! :)",
+	    		"url":"https://www.patreon.com/thehacker_",
+	    		"footer":"You can disable these reminders with the settings command."
+	},
+	"maintenance" : {
+	    		"active": true ,
+	    		"color":"#FF0000",
+	    		"title":"Maintenance Alert!",
+			"notice":"During the CleverBot server migration, some server data files were deleted. Apologies for the inconvenience!",
+	    		"footer":"You can disable these alerts with the settings command.",
+	    		"urgency": 3
+	}
+}

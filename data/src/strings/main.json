@@ -1,0 +1,112 @@
+{
+    "welcome": {
+        "desc": "I am CleverBot, a chat bot fueled by Artificial Intelligence here to engage in *meaningful* conversations.\n\nI also work here if you would like to have uninterupted conversations.",
+        "privacy": {
+            "title": "Privacy",
+            "desc": "By using this bot you agree to let me log users and the channels that I interact with. To view my full privacy notice use"
+        },
+        "getting_started": {
+            "title": "Getting Started",
+            "desc": "To get started, in a DM Channel, just send a message that doesn't begin with"
+        },
+        "ignore": {
+            "title": "Ignoring Messages",
+            "desc": "CleverBot ignores messages starting with"
+        },
+        "credits": {
+            "title": "Credits",
+            "desc": "View all of the open source packages CleverBot uses"
+        },
+        "settings": {
+            "title":"Toggle Settings",
+            "desc":"Toggle maintenance and donation/upvote alerts with"
+        },
+        "unbind": {
+            "title":"Unbind Channels",
+            "desc":"You can now unbind CleverBot from a channel using"
+        },
+        "find": {
+            "title": "Find Channel",
+            "desc": "Can't find the channel you bound CleverBot to? Use"
+        }
+    },
+    "privacy": {
+        "title": "CleverBot Privacy",
+        "desc":"By using CleverBot, you agree to allowing us to log your interactions with this bot and use that data for future projects and research.",
+        "footer":"Messages logged by CleverBot are anonymous and are only logged in channels CleverBot is bound to.",
+        "messages": {
+            "title":"💬 Message Logging",
+            "desc":"Message Content and Responses are logged for quality assurance and to make sure CleverBot is functioning correctly."
+        },
+        "channels": {
+            "title":"📺 Channel Logging",
+            "desc":"Channel IDs and Channel Names are kept on the server to retain channel bindings."
+        },
+        "ids": {
+            "title":"👤 ID Logging",
+            "desc":"User IDs, Channel IDs, and Server/Guild IDs are logged when using the support command to monitor possible abuse of the command."
+        },
+        "interactions": {
+            "title":"📟 Interaction Logging",
+            "desc":"CleverBot interactions in bound channels are logged anonymously now. Some interactions may be posted on the CleverBot Discord Server"
+        }
+    },
+    "error": {
+        "valid_channelMen":"You must provide a valid Channel Mention",
+        "unexpected":"An unexpected error occured, please send a screenshot of this, with context, to **skylarmccauley864@gmail.com** or **TheHacker#9367**: ",
+        "channel404":"Provided channel does not exist.",
+        "noChannelID":"The Channel ID must be a Snowflake (17 or 18 characters long)",
+        "noBoundChannel":"I am not bound to a channel in this server.",
+        "userBlacklisted":"You have been blacklisted from this command.",
+        "serverBlacklisted":"Your server has been blacklisted from this command.",
+        "corruptDBFile":"[CORRUPTED DB FILE DETECTED]. Please email me at **skylarmccauley864@gmail.com** with context to this error.",
+        "dmBind":"You cannot bind CleverBot in DM Channels!",
+        "dmunBind":"You cannot unbind CleverBot in DM Channels",
+        "manageChannelsPermReq":"You must have the `MANAGE_CHANNELS` permission to use this command."
+    },
+    "confirm": {
+        "autoBind":"No channel was provided, so I am now bound to this channel. To unbind me from the channel use the `unbind` command.\n\nTo chat with me, just send a message in that channel and I'll respond to you.",
+        "enabledMaintenanceAlerts":"Successfully enabled Maintenance Alerts"
+    },
+    "botOwner":"270375857384587264",
+    "heyCleverBot":"Hey CleverBot",
+    "announcementsDisabled":"All announcements below *high* urgency have been disabled. You can use this command again to disable them.",
+    "announcementsEnabled":"All announcements have been enabled. You can use this command again to disable them.",
+    
+    "cmd": {
+        "toggle": {
+            "desc": {
+                "sufficientPerms":"Change whether CleverBot sends alerts after it responds to your message\n\n",
+                "insufficientPerms":"**NOTE**: Settings are stored per-server. To change settings you will need to have the MANAGE CHANNELS permission.\n\n"
+            }
+        },
+        "support" : {
+            "desc": "Send a message to the developer, whether it be a complaint about a bug, a suggestion, or just a thumbs up.\n\n**Any abuse of this system will result in your account or server being blacklisted.**",
+            "confirmation":"Support sent!\n**NOTE:** Join the CleverBot Discord Server **https://skylarmccauley.xyz/cleverbot** so you can be contacted if needed."
+        }
+    },
+    "links": {
+        "invite": {
+            "discord": {
+                "cleverbot": "https://skylarmccauley.xyz/ql/cleverbot-server/"            
+            },
+            "bot": {
+                "cleverbot": "https://skylarmccauley.xyz/ql/cleverbot-invite/"
+            }
+        },
+        "listings": {
+            "dbl":"https://discordbots.org/bot/458664297732636672",
+            "bod":"https://bots.ondiscord.xyz/bots/458664297732636672",
+            "db":"https://discord.bots.gg/bots/458664297732636672",
+            "dbh":"https://discordbothub.com/bot?id=458664297732636672"
+        },
+        "website": "https://skylarmccauley.xyz/",
+        "cleverbot": "https://skylarmccauley.xyz/cleverbot"
+    },
+    "command": {
+        "support": {
+            "name":"support",
+            "description":"Send a message to the developer, whether it be a complaint about a bug, a suggestion, or just a thumbs up.\n\n**Any abuse of this system will result in your account or server being blacklisted.**"
+        }
+    }
+    }

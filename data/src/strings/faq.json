@@ -1,0 +1,79 @@
+{
+    "footer":"Frequently Asked Questions",
+    "faq": {
+        "url":"https://www.hacker-hub.com/cleverbot/faq",
+        "page1": {
+            "inviteHelp": {
+                "question":"How do I invite CleverBot?",
+                "answer":"CleverBot's permanent invite is on the CleverBot website",
+                "url": "https://www.hacker-hub.com/cleverbot/invite"
+            },
+            "howToBind": {
+                "question": "How do I bind CleverBot to a channel?",
+                "answer": "To start chatting with CleverBot, use the `bind` command to bind CleverBot to a channel.",
+                "url":"https://www.hacker-hub.com/cleverbot/#getting-started"
+            },
+            "howToUse": {
+                "question":"How do I <insert action here>",
+                "answer": "Documentation on CleverBot's commands is available on the CleverBot website",
+                "url": "https://www.hacker-hub.com/cleverbot/#getting-started"
+            },
+            "noResponse": {
+                "question": "CleverBot will not respond to any of my messages!",
+                "answer":"If CleverBot stops responding to your messages it may mean one of three things \nA: Offline\nB: CleverBot is now bound to the current channel\nC: Database corruption. In any case, try rebinding CleverBot to a channel. If that does not work, please contact me at **skylarmccauley864@gmail.com**",
+                "url":"https://www.hacker-hub.com/cleverbot/"
+            }
+        },
+        "page2": {
+            "botSoSlow": {
+                "question":"Why is the CleverBot so slow?",
+                "answer":"You may be trying to use CleverBot during a peak traffic period.",
+                "url":"https://www.hacker-hub.com/social/"
+            },
+            "howToUpvote": {
+                "question":"How do I upvote CleverBot?",
+                "answer:":"You can upvote CleverBot by going to its Discord Bot List page.",
+                "url":"https://discordbots.org/bot/458664297732636672"
+            },
+            "isOpenSource": {
+                "question":"Is CleverBot Open-Source?",
+                "answer":"CleverBot is not open source.",
+                "url":"https://www.hacker-hub.com/cleverbot"
+            },
+            "whatAPI": {
+                "question":"What API(s) does CleverBot use?",
+                "answer":"CleverBot uses DiscordJS and CleverBot.io",
+                "url":"https://www.hacker-hub.com/cleverbot"
+            },
+            "canHelpDev": {
+                "question":"Can I help out with CleverBot development?",
+                "answer":"If you think you the skills to help out with development. Contant me at **skylarmccauley864@gmail.com**",
+                "url":"https://skylarmccauley.xyz/#contact"
+            }
+        },
+        "page3": {
+            "whenNextUpdate": {
+                "question":"When will the next update be released?",
+                "answer":"CleverBot gets a steady stream of updates every few weeks. Stay tuned for announcements!",
+                "url":"https://www.hacker-hub.com/cleverbot/whats-new/"
+            },
+            "canFeatureAdd": {
+                "question":"Can <insert feature here> be added to CleverBot?",
+                "answer":"If you have any ideas for features to be added to the bot. Make a suggestion through the `support` command or on the CleverBot Discord Server.",
+                "url":"https://www.hacker-hub.com/cleverbot/serverinvite"
+            },
+            "howTogglePings": {
+                "question":"How can I disable CleverBot's pings?",
+                "answer":"As of v1.6, you can now disable CleverBot's pings with `toggle mentions`",
+                "url":"https://www.hacker-hub.com/cleverbot/#getting-started"
+            },
+            "howToggleAnnouncements": {
+                "question":"How can I disable CleverBot's announcements?",
+                "answer":"As of v1.6, you can now disable CleverBot's announcements with `toggle announcements`",
+                "url":"https://www.hacker-hub.com/cleverbot/#getting-started"
+            }
+        }
+        
+    }
+    
+}

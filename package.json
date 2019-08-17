@@ -1,0 +1,22 @@
+{
+  "name": "cleverbot",
+  "version": "1.8.2",
+  "description": "Cleverbot DiscordJS Bot for chatting when you have no friends :(",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheHacker",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cleverbot.io": "^1.0.4",
+    "dblapi.js": "^2.2.0",
+    "discord.js": "^11.3.2",
+    "fast-levenshtein": "^2.0.6",
+    "fs": "0.0.1-security",
+    "fs-extra": "^6.0.1",
+    "moment": "^2.22.2",
+    "request": "^2.88.0"
+  }
+}
