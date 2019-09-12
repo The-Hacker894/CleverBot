@@ -1,6 +1,6 @@
 {
   "name": "cleverbot",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "description": "Cleverbot DiscordJS Bot for chatting when you have no friends :(",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "fast-levenshtein": "^2.0.6",
     "fs": "0.0.1-security",
     "fs-extra": "^6.0.1",
+    "long": "^4.0.0",
     "moment": "^2.22.2",
     "request": "^2.88.0"
   }

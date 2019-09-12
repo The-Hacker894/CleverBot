@@ -5,7 +5,11 @@
             "title": "Privacy",
             "desc": "By using this bot you agree to let me log users and the channels that I interact with. To view my full privacy notice use"
         },
-        "getting_started": {
+        "getting_started_text": {
+            "title": "Getting Started",
+            "desc": "To get started, use <@463715411561807882> `bind #channel` to bind me to a channel. Then you can send any message in that channel to talk with me."
+        },
+        "getting_started_dm": {
             "title": "Getting Started",
             "desc": "To get started, in a DM Channel, just send a message that doesn't begin with"
         },
@@ -28,6 +32,10 @@
         "find": {
             "title": "Find Channel",
             "desc": "Can't find the channel you bound CleverBot to? Use"
+        },
+        "feedback": {
+            "title":"Feedback",
+            "desc":"If you're ever having trouble with CleverBot, or have a suggestion you think can make CleverBot better use"
         }
     },
     "privacy": {
@@ -44,7 +52,7 @@
         },
         "ids": {
             "title":"👤 ID Logging",
-            "desc":"User IDs, Channel IDs, and Server/Guild IDs are logged when using the support command to monitor possible abuse of the command."
+            "desc":"User IDs, Channel IDs, and Server/Guild IDs are logged when using the feedback command to monitor possible abuse of the command."
         },
         "interactions": {
             "title":"📟 Interaction Logging",
@@ -62,18 +70,26 @@
         "corruptDBFile":"[CORRUPTED DB FILE DETECTED]. Please email me at **skylarmccauley864@gmail.com** with context to this error.",
         "dmBind":"You cannot bind CleverBot in DM Channels!",
         "dmunBind":"You cannot unbind CleverBot in DM Channels",
-        "manageChannelsPermReq":"You must have the `MANAGE_CHANNELS` permission to use this command."
+        "dmFindBind":"You cannot bind CleverBot in DM Channels, therefore you cannot find the bound channel in DM Channels!",
+        "manageChannelsPermReq":"You must have the `MANAGE_CHANNELS` permission to use this command.",
+        "dmToggle":"You cannot toggle settings in DM Channels!",
+        "lockdownNoArgs":"Correct use: `lockdown enable` or `lockdown disable`"
+    },
+    "lockdown": {
+        "title":"Lockdown In Effect",
+        "desc":"A lockdown is in effect at this time.\n\n",
+        "noMsgProvided":"_No message was provided._"
     },
     "confirm": {
         "autoBind":"No channel was provided, so I am now bound to this channel. To unbind me from the channel use the `unbind` command.\n\nTo chat with me, just send a message in that channel and I'll respond to you.",
-        "enabledMaintenanceAlerts":"Successfully enabled Maintenance Alerts"
+        "enabledMaintenanceAlerts":"Successfully enabled Maintenance Alerts",
+        "unBind":"Successfully unbound from channel!"
     },
     "botOwner":"270375857384587264",
-    "heyCleverBot":"Hey CleverBot",
+	"heyCleverBot":"Hey CleverBot",
     "announcementsDisabled":"All announcements below *high* urgency have been disabled. You can use this command again to disable them.",
     "announcementsEnabled":"All announcements have been enabled. You can use this command again to disable them.",
-    
-    "cmd": {
+	"cmd": {
         "toggle": {
             "desc": {
                 "sufficientPerms":"Change whether CleverBot sends alerts after it responds to your message\n\n",
@@ -81,8 +97,8 @@
             }
         },
         "support" : {
-            "desc": "Send a message to the developer, whether it be a complaint about a bug, a suggestion, or just a thumbs up.\n\n**Any abuse of this system will result in your account or server being blacklisted.**",
-            "confirmation":"Support sent!\n**NOTE:** Join the CleverBot Discord Server **https://skylarmccauley.xyz/cleverbot** so you can be contacted if needed."
+            "desc": "Send feedback to the developer, whether it be a complaint about a bug, a suggestion, or just a thumbs up.\n\n**Any abuse of this system will result in your account or server being blacklisted.**",
+            "confirmation":"Feedback sent!\n**NOTE:** Join the CleverBot Discord Server **https://skylarmccauley.xyz/cleverbot** so you can be contacted if needed."
         }
     },
     "links": {

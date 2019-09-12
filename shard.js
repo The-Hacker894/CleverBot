@@ -13,10 +13,9 @@ const Manager = new Discord.ShardingManager('./index.js', {token: config.token})
 
 */
 
-fs.readFile("./data/guildCount", 'utf8', function(err, guildCount) {
-	if(err) return console.log(err)
+var stats = require("./data/cache/stats.json")
 
-guildCount = parseInt(guildCount)
+	var guildCount = parseInt(stats.guildCount)
 
 var neededShards = Math.round(parseInt(0.0008 * guildCount))
 neededShards = parseInt(neededShards)
@@ -24,15 +23,9 @@ neededShards = parseInt(neededShards)
 if(neededShards < 1) {
 	neededShards = 1
 }
-
-fs.writeFile("./data/shardCount", neededShards, function(err) {
+	stats.shardCount = neededShards
+fs.writeFile("./data/cache/stats.json", JSON.stringify(stats, null, 2), function(err) {
 	if(err) return console.log(err)
 })
-
+delete require.cache[require.resolve("./data/cache/stats.json")]
 Manager.spawn(neededShards); // This example will spawn 2 shards (5,000 guilds);
-
-
-})
-
-
-
