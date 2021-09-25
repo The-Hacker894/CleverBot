@@ -12,7 +12,7 @@
     "chalk": "^2.4.2",
     "cleverbot.io": "^1.0.4",
     "dblapi.js": "^2.2.0",
-    "discord.js": "^11.3.2",
+    "discord.js": "^11.6.4",
     "fast-levenshtein": "^2.0.6",
     "fs": "0.0.1-security",
     "fs-extra": "^6.0.1",
