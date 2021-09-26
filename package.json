@@ -11,7 +11,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "cleverbot.io": "^1.0.4",
-    "dblapi.js": "^2.2.0",
+    "dblapi.js": "^2.4.1",
     "discord.js": "^11.6.4",
     "fast-levenshtein": "^2.0.6",
     "fs": "0.0.1-security",
